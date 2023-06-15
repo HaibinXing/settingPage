@@ -13,6 +13,8 @@
 		F25DBA462A3A7BC700894AA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25DBA442A3A7BC700894AA5 /* Main.storyboard */; };
 		F25DBA482A3A7BCA00894AA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F25DBA472A3A7BCA00894AA5 /* Assets.xcassets */; };
 		F25DBA4B2A3A7BCA00894AA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25DBA492A3A7BCA00894AA5 /* LaunchScreen.storyboard */; };
+		F25DBA552A3A8A0600894AA5 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25DBA542A3A8A0600894AA5 /* CustomTableViewCell.swift */; };
+		F25DBA572A3AA6BB00894AA5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25DBA562A3AA6BB00894AA5 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F25DBA472A3A7BCA00894AA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F25DBA4A2A3A7BCA00894AA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F25DBA4C2A3A7BCA00894AA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F25DBA542A3A8A0600894AA5 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		F25DBA562A3AA6BB00894AA5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				F25DBA3E2A3A7BC700894AA5 /* AppDelegate.swift */,
 				F25DBA402A3A7BC700894AA5 /* SceneDelegate.swift */,
+				F25DBA542A3A8A0600894AA5 /* CustomTableViewCell.swift */,
 				F25DBA422A3A7BC700894AA5 /* ViewController.swift */,
+				F25DBA562A3AA6BB00894AA5 /* SecondViewController.swift */,
 				F25DBA442A3A7BC700894AA5 /* Main.storyboard */,
 				F25DBA472A3A7BCA00894AA5 /* Assets.xcassets */,
 				F25DBA492A3A7BCA00894AA5 /* LaunchScreen.storyboard */,
@@ -140,6 +146,8 @@
 			files = (
 				F25DBA432A3A7BC700894AA5 /* ViewController.swift in Sources */,
 				F25DBA3F2A3A7BC700894AA5 /* AppDelegate.swift in Sources */,
+				F25DBA552A3A8A0600894AA5 /* CustomTableViewCell.swift in Sources */,
+				F25DBA572A3AA6BB00894AA5 /* SecondViewController.swift in Sources */,
 				F25DBA412A3A7BC700894AA5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
